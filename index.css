@@ -1,0 +1,149 @@
+body{background-color: bisque;
+    font-family: 'Gill Sans', sans-serif;
+    margin: 0%;
+}
+.topbar{background-color: rgb(255, 255, 255);
+padding: 10px;
+margin-top: 0%;
+  border-bottom: 8px solid #f1e2e2;
+  display: flex;
+}
+
+.topbar.inbox{
+    padding: 40px ,50px;
+    margin-bottom: 1.2em;
+}
+.topbar .inbox a{
+    padding: 0%;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+
+}
+.topbar .inbox a span {
+    color: rgba(19, 131, 251, 0.914);
+    font-weight: bold;
+}
+
+ 
+.topbar .inbox .logoimg {
+    height: auto;
+    width: 50px;  
+}
+.topbar .index nav{
+    float: right;
+
+
+
+
+}
+nav ul li a:hover{
+    background-color: aquamarine;
+    border-radius: 5px;
+
+}
+.topbar .inbox nav ul{
+    float: right;
+    gap: 50px;
+    margin:1.2em;
+    display: flex;
+    font-style: italic;
+    text-decoration: none;
+    margin-bottom: none;
+    
+    
+
+}
+.topbar .inbox nav ul li{
+    list-style: none;
+    float: right;
+ margin-right: none;
+
+}
+.special {
+    background-color:none;
+    border: 2px solid black;
+
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+.funding {
+    
+    text-decoration: underline;
+    background: transparent;
+    float: right;
+  }
+
+.background {
+    margin-top: none;
+    display: flex;
+    background: url("lights-europe-planet-earth-hd-wallpaper-thumb.jpg") no-repeat center center/cover;
+    opacity: 100%;
+    padding: 100px 40px;
+    text-align: center;
+    border-bottom: 8px solid #f1e2e2;
+ 
+  }
+  .background .textonp {
+    max-width: 600px;
+    margin: 0 auto;
+  } 
+  .background .textonp h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: rgba(147, 182, 42, 0.914);
+  }
+  .background .textonp p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color:white;
+    display: flex;
+  }
+  
+  .API {
+    background: #f2f2f2;
+    padding: 40px 20px;
+  }
+  .API .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .API .container .search form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .API .container .search form label {
+    font-size: 1.2em;
+    margin-right: 10px;
+  }
+  .API .container .search form input {
+    padding: 10px;
+    width: 60%;
+    border: 1px solid rgba(16, 19, 7, 0.9137254902);
+    border-radius: 5px;
+  }
+  .API .container .search form button {
+    padding: 10px 20px;
+    background: rgba(16, 19, 7, 0.9137254902);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .API .container .weather,
+  .API .container .timezone {
+    margin-top: 40px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  .API .container .weather h1,
+  .API .container .timezone h1 {
+    font-size: 2em;
+    color: rgba(16, 19, 7, 0.9137254902);
+  } 
